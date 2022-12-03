@@ -1,17 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p>hello</p>
-    <video width="400" controls>
-        <source src="films/js/js02 - HD 1080p.mp4" type="video/mp4">
-        Your browser does not support HTML video.
-      </video>
-      <img src="linkedin-profile.png" >
+    <!-- -------navbar--------- -->
+    <header>
+        <a href="#link1" class="link">تولید محتوای ویدئویی</a>
+        <a href="#" class="link">تولید محتوای متنی</a>
+        <a href="#link3" class="link">طراحی سایت</a>
+    </header>
+
+    <!-- --------header-------- -->
+    <nav class="header">
+        <div class="matin-info">
+            <img src="/image/matin-ghaedi.png" alt="matin ghaedi" class="matin-ghaedi">
+            <p class="name">متین قائدی</p>
+            <p class="job">تولیدکننده محتوا | برنامه‌نویس جاوااسکریپت</p>
+        </div>
+    </nav>
+    <!-- ----------videos------------ -->
+    <div class="vidoes-box">
+        <h2 class="title" id="link1">تولید محتوای ویدئویی</h2>
+        <div class="videos-info">
+            <p>کلیه مراحل ساخت ویدئوهایی که در زیر مشاهده خواهید کرد، توسط بنده انجام شده است و صرفاً جهت بررسی
+                کارفرمایان محترم با میزان توانایی بنده قرار گرفته‌اند.</p>
+            <div class="js">
+                <h3>آموزش جاوا‌اسکریپت</h3>
+                <div class="all-films">
+                    <div class="each-film">
+                        <video controls poster="/image/js/1js.png">
+                            <source src="films/js/js02 - HD 1080p.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <p class="each-film-info">قسمت اول آموزش جاوااسکریپت مقدماتی</p>
+                    </div>
+                    <div class="each-film">
+                        <video controls poster="/image/js/2js.png">
+                            <source src="films/js/js03 - HD 1080p.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <p class="each-film-info">قسمت دوم آموزش جاوااسکریپت مقدماتی</p>
+                    </div>
+                    <div class="each-film">
+                        <video controls poster="/image/js/3js.png">
+                            <source src="films/js/js04 - HD 1080p.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <p class="each-film-info">قسمت سوم آموزش جاوااسکریپت مقدماتی</p>
+                    </div>
+                    <div class="each-film">
+                        <video controls poster="/image/js/4js.png">
+                            <source src="films/js/js05 - HD 1080p.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <p class="each-film-info">قسمت چهارم آموزش جاوااسکریپت مقدماتی</p>
+                    </div>
+                </div>
+            </div>
+            <div class="js">
+                <h3>سایت کارنکن</h3>
+                <div class="all-films">
+                    <div class="each-film">
+                        <video controls poster="/image/karnakon/karnakon1.png">
+                            <source src="films/karnakon/کارنکن - HD 1080p.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <p class="each-film-info">محتوای ویدئویی آماده شده برای نوشته <a href="https://karnakon.ir/%D8%B3%D8%A7%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D9%87%D9%86%D8%B1%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C/">سایت کارهای هنری خارجی – چگونه از هنر خود درآمد دلاری داشته باشیم؟</a> سایت کارنکن</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+<script src="index.js"></script>
+
 </html>
