@@ -38,6 +38,7 @@ header{
     position: fixed;
     margin: auto;
     background-color: #FFFFFF;
+    z-index: 5;
     /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
 }
 header>a{
@@ -46,6 +47,9 @@ header>a{
 }
 header>a:hover{
     color: rgb(36, 36, 36);
+}
+.film-info-matin{
+    text-align: justify;
 }
 .active{
     font-family: 'IRANYekanbold';
@@ -121,16 +125,47 @@ header>a:hover{
     font-family: 'IRANYekanbold';
 }
 /* tablet */
-@media screen and (min-width: 600px) and (max-width:900px){
+@media screen and (min-width: 656px) and (max-width:1200px){
     header>a{
         font-size: 14px;
         padding-left: 7px;
     }
+    .matin-ghaedi{
+        width: 180px;
+    }
+    .matin-info{
+        padding-top: 5rem;
+        width: 60%;
+    }
+    .each-film{
+        width: 42%;
+        margin-left: 1rem;      
+    }
 }
 /* phone */
-@media screen and (max-width:600px){
+@media screen and (max-width:655px){
     header>a{
         font-size: 12px;
         padding-left: 5px;
+    }
+    .matin-ghaedi{
+        width: 120px;
+    }
+    .name{
+        font-family: 'IRANYekanbold';
+        font-size: 29px;
+    }
+    .matin-info{
+        padding-top: 6rem;
+        width: 60%;
+    }
+    .job{
+        font-size: 13px;
+        margin: auto;
+        width: 70%;
+    }
+    .each-film{
+        width: 100%;
+        margin-left: 0rem;      
     }
 }
