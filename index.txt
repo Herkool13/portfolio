@@ -36,28 +36,28 @@
                 <h3>آموزش جاوا‌اسکریپت</h3>
                 <div class="all-films">
                     <div class="each-film">
-                        <video controls poster="/image/js/1js.jpeg">
+                        <video controls preload="none" poster="/image/js/1js.jpeg">
                             <source src="films/js/js02 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                         <p class="each-film-info">قسمت اول آموزش جاوااسکریپت مقدماتی</p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/js/2js.jpg">
+                        <video controls preload="none" poster="/image/js/2js.jpg">
                             <source src="films/js/js03 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                         <p class="each-film-info">قسمت دوم آموزش جاوااسکریپت مقدماتی</p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/js/3js.jpeg">
+                        <video controls preload="none" poster="/image/js/3js.jpeg">
                             <source src="films/js/js04 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                         <p class="each-film-info">قسمت سوم آموزش جاوااسکریپت مقدماتی</p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/js/4js.jpeg">
+                        <video controls preload="none" poster="/image/js/4js.jpeg">
                             <source src="films/js/js05 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -69,7 +69,7 @@
                 <h3>سایت کارنکن</h3>
                 <div class="all-films">
                     <div class="each-film">
-                        <video controls poster="/image/karnakon/karnakon1.jpeg">
+                        <video controls preload="none" poster="/image/karnakon/karnakon1.jpeg">
                             <source src="films/karnakon/کارنکن - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -79,7 +79,7 @@
                                 کارهای هنری خارجی – چگونه از هنر خود درآمد دلاری داشته باشیم؟</a> سایت کارنکن</p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/karnakon/karnakon2.jpeg">
+                        <video controls preload="none" poster="/image/karnakon/karnakon2.jpeg">
                             <source src="films/karnakon/کاشف الکل - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -94,7 +94,7 @@
                 <h3>سایت شالیما</h3>
                 <div class="all-films">
                     <div class="each-film">
-                        <video controls poster="/image/shalima/shalima1.jpg">
+                        <video controls preload="none" poster="/image/shalima/shalima1.jpg">
                             <source src="films/shalima/shalimaIntro - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -103,7 +103,7 @@
                                 شالیما</a></p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/shalima/shalima2.jpg">
+                        <video controls preload="none" poster="/image/shalima/shalima2.jpg">
                             <source src="films/shalima/02 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -111,7 +111,7 @@
                                 href="https://shalima.ir/product-category/shawl/" target="_blank"> شالیما</a></p>
                     </div>
                     <div class="each-film">
-                        <video controls poster="/image/shalima/shalima3.jpg">
+                        <video controls preload="none" poster="/image/shalima/shalima3.jpg">
                             <source src="films/shalima/Untitled Project 1 - SD 480p.mov" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
@@ -123,7 +123,7 @@
                 <h3>سایت تک‌سیستم</h3>
                 <div class="all-films">
                     <div class="each-film">
-                        <video controls poster="/image/taksystem/tak.jpeg">
+                        <video controls preload="none" poster="/image/taksystem/tak.jpeg">
                             <source src="films/taksystem/c280 - HD 1080p.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
