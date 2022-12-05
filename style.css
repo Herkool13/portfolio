@@ -112,6 +112,7 @@ header > a:hover {
 }
 .each-film-info {
     padding-top: 1rem;
+    text-align: center;
 }
 .each-film > video {
     width: 100%;
@@ -194,15 +195,19 @@ header > a:hover {
     text-align: justify;
 }
 footer {
-    height: 30px;
+    /* height: 30px; */
     padding: 1rem;
     text-align: center;
+    box-sizing: border-box;
     background-color: #e7e7e7;
 }
 .sotial-link{
     text-decoration: none;
     padding:0 .7rem;
     border-left: 1px solid rgb(194, 194, 194);
+}
+footer>p{
+    padding-top: .2rem;
 }
 #sotial-link-end{
     text-decoration: none;
